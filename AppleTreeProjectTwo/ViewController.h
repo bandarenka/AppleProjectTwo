@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AppleTree.h"
+#import "AppDelegate.h"
 @interface ViewController : UIViewController
 
 
 @property (weak, nonatomic) IBOutlet UILabel *totalAppleCount;
+@property AppleTree *tree;
 
 @end
 

@@ -14,6 +14,14 @@
 		8442257E1BAB1DDB004DA407 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8442257D1BAB1DDB004DA407 /* Images.xcassets */; };
 		844225811BAB1DDB004DA407 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8442257F1BAB1DDB004DA407 /* LaunchScreen.xib */; };
 		8442258D1BAB1DDB004DA407 /* AppleTreeProjectTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442258C1BAB1DDB004DA407 /* AppleTreeProjectTwoTests.m */; };
+		844225991BAB2798004DA407 /* BasketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 844225981BAB2798004DA407 /* BasketIterator.m */; };
+		844225AA1BAB27AD004DA407 /* AdditionalTypes.c in Sources */ = {isa = PBXBuildFile; fileRef = 8442259A1BAB27AD004DA407 /* AdditionalTypes.c */; };
+		844225AB1BAB27AD004DA407 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442259D1BAB27AD004DA407 /* Apple.m */; };
+		844225AC1BAB27AD004DA407 /* AppleTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442259F1BAB27AD004DA407 /* AppleTree.m */; };
+		844225AD1BAB27AD004DA407 /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = 844225A11BAB27AD004DA407 /* Basket.m */; };
+		844225AE1BAB27AD004DA407 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 844225A31BAB27AD004DA407 /* Fruit.m */; };
+		844225AF1BAB27AD004DA407 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 844225A61BAB27AD004DA407 /* Leaf.m */; };
+		844225B11BAB27AD004DA407 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 844225A91BAB27AD004DA407 /* Tree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,23 @@
 		844225861BAB1DDB004DA407 /* AppleTreeProjectTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleTreeProjectTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8442258B1BAB1DDB004DA407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8442258C1BAB1DDB004DA407 /* AppleTreeProjectTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleTreeProjectTwoTests.m; sourceTree = "<group>"; };
+		844225971BAB2798004DA407 /* BasketIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketIterator.h; path = ../../AppleApp/BasketIterator.h; sourceTree = "<group>"; };
+		844225981BAB2798004DA407 /* BasketIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketIterator.m; path = ../../AppleApp/BasketIterator.m; sourceTree = "<group>"; };
+		8442259A1BAB27AD004DA407 /* AdditionalTypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = AdditionalTypes.c; path = ../../AppleApp/Tree/AdditionalTypes.c; sourceTree = "<group>"; };
+		8442259B1BAB27AD004DA407 /* AdditionalTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdditionalTypes.h; path = ../../AppleApp/Tree/AdditionalTypes.h; sourceTree = "<group>"; };
+		8442259C1BAB27AD004DA407 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Apple.h; path = ../../AppleApp/Tree/Apple.h; sourceTree = "<group>"; };
+		8442259D1BAB27AD004DA407 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Apple.m; path = ../../AppleApp/Tree/Apple.m; sourceTree = "<group>"; };
+		8442259E1BAB27AD004DA407 /* AppleTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleTree.h; path = ../../AppleApp/Tree/AppleTree.h; sourceTree = "<group>"; };
+		8442259F1BAB27AD004DA407 /* AppleTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppleTree.m; path = ../../AppleApp/Tree/AppleTree.m; sourceTree = "<group>"; };
+		844225A01BAB27AD004DA407 /* Basket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Basket.h; path = ../../AppleApp/Tree/Basket.h; sourceTree = "<group>"; };
+		844225A11BAB27AD004DA407 /* Basket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Basket.m; path = ../../AppleApp/Tree/Basket.m; sourceTree = "<group>"; };
+		844225A21BAB27AD004DA407 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fruit.h; path = ../../AppleApp/Tree/Fruit.h; sourceTree = "<group>"; };
+		844225A31BAB27AD004DA407 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fruit.m; path = ../../AppleApp/Tree/Fruit.m; sourceTree = "<group>"; };
+		844225A41BAB27AD004DA407 /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Iterator.h; path = ../../AppleApp/Tree/Iterator.h; sourceTree = "<group>"; };
+		844225A51BAB27AD004DA407 /* Leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leaf.h; path = ../../AppleApp/Tree/Leaf.h; sourceTree = "<group>"; };
+		844225A61BAB27AD004DA407 /* Leaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Leaf.m; path = ../../AppleApp/Tree/Leaf.m; sourceTree = "<group>"; };
+		844225A81BAB27AD004DA407 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tree.h; path = ../../AppleApp/Tree/Tree.h; sourceTree = "<group>"; };
+		844225A91BAB27AD004DA407 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tree.m; path = ../../AppleApp/Tree/Tree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +106,7 @@
 		8442256F1BAB1DDA004DA407 /* AppleTreeProjectTwo */ = {
 			isa = PBXGroup;
 			children = (
+				844225961BAB272C004DA407 /* AppleSource */,
 				844225741BAB1DDB004DA407 /* AppDelegate.h */,
 				844225751BAB1DDB004DA407 /* AppDelegate.m */,
 				844225771BAB1DDB004DA407 /* ViewController.h */,
@@ -117,6 +143,30 @@
 				8442258B1BAB1DDB004DA407 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844225961BAB272C004DA407 /* AppleSource */ = {
+			isa = PBXGroup;
+			children = (
+				8442259A1BAB27AD004DA407 /* AdditionalTypes.c */,
+				8442259B1BAB27AD004DA407 /* AdditionalTypes.h */,
+				8442259C1BAB27AD004DA407 /* Apple.h */,
+				8442259D1BAB27AD004DA407 /* Apple.m */,
+				8442259E1BAB27AD004DA407 /* AppleTree.h */,
+				8442259F1BAB27AD004DA407 /* AppleTree.m */,
+				844225A01BAB27AD004DA407 /* Basket.h */,
+				844225A11BAB27AD004DA407 /* Basket.m */,
+				844225A21BAB27AD004DA407 /* Fruit.h */,
+				844225A31BAB27AD004DA407 /* Fruit.m */,
+				844225A41BAB27AD004DA407 /* Iterator.h */,
+				844225A51BAB27AD004DA407 /* Leaf.h */,
+				844225A61BAB27AD004DA407 /* Leaf.m */,
+				844225A81BAB27AD004DA407 /* Tree.h */,
+				844225A91BAB27AD004DA407 /* Tree.m */,
+				844225971BAB2798004DA407 /* BasketIterator.h */,
+				844225981BAB2798004DA407 /* BasketIterator.m */,
+			);
+			name = AppleSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +269,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844225AE1BAB27AD004DA407 /* Fruit.m in Sources */,
+				844225AB1BAB27AD004DA407 /* Apple.m in Sources */,
 				844225791BAB1DDB004DA407 /* ViewController.m in Sources */,
 				844225761BAB1DDB004DA407 /* AppDelegate.m in Sources */,
 				844225731BAB1DDB004DA407 /* main.m in Sources */,
+				844225AF1BAB27AD004DA407 /* Leaf.m in Sources */,
+				844225991BAB2798004DA407 /* BasketIterator.m in Sources */,
+				844225AD1BAB27AD004DA407 /* Basket.m in Sources */,
+				844225AC1BAB27AD004DA407 /* AppleTree.m in Sources */,
+				844225B11BAB27AD004DA407 /* Tree.m in Sources */,
+				844225AA1BAB27AD004DA407 /* AdditionalTypes.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
