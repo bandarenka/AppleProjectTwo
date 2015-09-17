@@ -18,6 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+- (IBAction)grow:(id)sender {
+    [self.totalAppleCount setText:@"Grow"];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
