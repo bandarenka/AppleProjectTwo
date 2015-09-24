@@ -14,6 +14,8 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *totalAppleCount;
 @property AppleTree *tree;
+@property (weak, nonatomic) IBOutlet UILabel *justFallenAppleCount;
+@property (weak, nonatomic) IBOutlet UILabel *justMaturedAppleCount;
 
 @end
 

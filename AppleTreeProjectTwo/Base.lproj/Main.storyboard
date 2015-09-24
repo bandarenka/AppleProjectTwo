@@ -17,19 +17,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30V-xs-FrT">
-                                <rect key="frame" x="187" y="396" width="37" height="30"/>
+                                <rect key="frame" x="33" y="390" width="37" height="30"/>
                                 <state key="normal" title="Grow">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="grow:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="njQ-OO-LRe"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9F-c5-8pc">
-                                <rect key="frame" x="366" y="390" width="43" height="30"/>
-                                <state key="normal" title="Shake">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gij-w7-Fy1">
                                 <rect key="frame" x="88" y="115" width="305" height="18"/>
@@ -49,16 +43,28 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9F-c5-8pc">
+                                <rect key="frame" x="265" y="390" width="43" height="30"/>
+                                <state key="normal" title="Shake">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shake:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5K9-ny-xhw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Iyo-Ba-nyT"/>
                     <connections>
+                        <outlet property="justFallenAppleCount" destination="gij-w7-Fy1" id="eHH-Fn-zb0"/>
+                        <outlet property="justMaturedAppleCount" destination="L6q-vP-65V" id="BYu-T2-Edb"/>
                         <outlet property="totalAppleCount" destination="d09-Zv-SD9" id="ZPl-XR-89Z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="280" y="209"/>
         </scene>
     </scenes>
 </document>
